@@ -1,4 +1,3 @@
-# Developer Community
 
 ## How to run the deploy the function app infrastructure in your Azure Subscription using Azure CLI
 
