@@ -1,6 +1,6 @@
 # Developer Community
 
-## [Draft] How to run the deploy the function app infrastructure in your Azure Subscription
+## How to run the deploy the function app infrastructure in your Azure Subscription using Azure CLI
 
 
 Configure the variables.
@@ -26,8 +26,11 @@ Deploy the function app with a storage account and app insights
 az deployment group create --name createFunctionApp -g $RG_NAME --template-file $TEMPLATE_FILE --parameters $PARAMETER_FILE
 ```
 
-## [Draft] How to run the .NET Core function locally
+## How to run the deploy the function app infrastructure in your Azure Subscription using Deploy Button
 
+
+
+<!-- 
 Under app/src, if not present, create a settings file for the function app named **local.settings.json** in app/src with the following configurations:
 
 ```bash
@@ -75,4 +78,4 @@ Once the functions are up and running, using tools such as Postman, make the fol
 2.  Using another window in Postman
   * **GET: http://localhost:7071/api/ScrapUrlLocalFunc?company=<COMPANYKEY>&scrapingSession=true**
   * To find a company key, visit the company page and find which string LinkedIn uses in the url. For example, Caterpillar is "caterpillar-inc"
-  * Let the app running until finished
+  * Let the app running until finished -->
