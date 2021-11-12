@@ -9,8 +9,8 @@ Configure the variables.
 # Global
 export RG_NAME=rg-developer-community
 export RG_REGION=centralus
-export TEMPLATE_FILE=app/infrastructure/azuredeploy.json
-export PARAMETER_FILE=app/infrastructure/azuredeploy.parameters.json
+export TEMPLATE_FILE=azuredeploy.json
+export PARAMETER_FILE=azuredeploy.parameters.json
 
 ```
 
@@ -28,7 +28,7 @@ az deployment group create --name createFunctionApp -g $RG_NAME --template-file 
 
 ## How to run the deploy the function app infrastructure in your Azure Subscription using Deploy Button
 
-
+https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjmasengeshomsft%2Fpoc-table-storage-api-deploy-button%2Fmain%2Fpoc-table-storage-api-deploy-button%2Finfrastructure%2Fazuredeploy.json
 
 <!-- 
 Under app/src, if not present, create a settings file for the function app named **local.settings.json** in app/src with the following configurations:

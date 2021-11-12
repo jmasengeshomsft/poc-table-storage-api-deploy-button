@@ -21,7 +21,7 @@
     },
     "functionToStorageRoleNameGuid": {
        "type": "string",
-       "defaultValue": "23ebe6d3-003c-4d2a-b8c3-c80f0d1712b3"
+       "defaultValue": "23ebe6d3-003c-4d2a-b8c3-c80f3d9712b3"
     } 
   },
    "variables": {
