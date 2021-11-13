@@ -6,10 +6,10 @@ Configure the variables.
 
 ```bash
 # Global
-export RG_NAME=rg-developer-community
+export RG_NAME=demo-deploy-button
 export RG_REGION=centralus
-export TEMPLATE_FILE=azuredeploy.json
-export PARAMETER_FILE=azuredeploy.parameters.json
+export TEMPLATE_FILE=infrastructure/azuredeploy.json
+export PARAMETER_FILE=infrastructure/azuredeploy.parameters.json
 
 ```
 
